@@ -16,6 +16,16 @@ main{
     max-width: 400px;
     text-align: center;
 }
-header{
+header h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
 
 }
+header p{
+    color:#666;
+    font-size: medium;
+    margin-bottom: 1.5rem;
+
+}
+
+
