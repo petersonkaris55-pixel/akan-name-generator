@@ -48,7 +48,7 @@ label{
 
 }
 button:hoover{
-    background-color: red; 
+    background-color: gold; 
 }
 #result-section{
     margin-top: 20px;
@@ -71,8 +71,8 @@ form label{
     display: block;
 }
 form input,form textarea,form button{
-    width: 100%;
-    padding: 14px;
+    width: 95%;
+    padding: 15px;
     margin-bottom: 18px;
     border: 1px solid #ccc;
     font-size: 16px;
@@ -82,6 +82,7 @@ form input,form textarea,form button{
 form input:focus, form text area:focus{
     border-color: green;
     outline: none;
+    
 }
 form button{
     background-color: green;
@@ -91,10 +92,20 @@ form button{
     border: none;
     transition: background-color 0.3s ease;
     cursor: pointer;
+
+    
 }
 form button:hover{
     background-color: green;
 }
 form button:active{
     background-color: green;
+
+}
+#box1{
+    height: 350px;
+    width: 600px;
+    margin: auto;
+    background-color: burlywood;
+
 }
