@@ -25,7 +25,17 @@ header p{
     color:#666;
     font-size: medium;
     margin-bottom: 1.5rem;
-
 }
-
-
+form{
+    display: flex;
+    gap: 15px;
+}
+label{
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+input, select{
+    padding: 10px;
+    background-color: ;
+}
