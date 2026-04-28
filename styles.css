@@ -82,7 +82,7 @@ form input,form textarea,form button{
 form input:focus, form text area:focus{
     border-color: green;
     outline: none;
-    
+    gap: 5px;
 }
 form button{
     background-color: green;
