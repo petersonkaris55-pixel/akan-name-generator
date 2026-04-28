@@ -22,7 +22,7 @@
 
 }
 .header p{
-    color:#666;
+    color:#666666;
     font-size: medium;
     margin-bottom: 1.5rem;
 }
@@ -44,7 +44,7 @@ label{
 }
 .button{
     padding: 12px;
-    background-color: #28a745;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 5px;
@@ -53,7 +53,7 @@ label{
     transition: background 0.3s ease;
 }
 button:hoover{
-    background-color: #218838;
+    background-color: red;
 }
 #result-section{
     margin-top: 20px;
@@ -64,5 +64,5 @@ button:hoover{
 #display-name{
     font-size: medium;
     font-size: bold;
-    color: #28a745;
+    color: brown;
 }
