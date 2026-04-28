@@ -59,5 +59,10 @@ button:hoover{
     margin-top: 20px;
     padding-top: 20px;
     border-top: 1px solid;
-    
+
+}
+#display-name{
+    font-size: medium;
+    font-size: bold;
+    color: #28a745;
 }
