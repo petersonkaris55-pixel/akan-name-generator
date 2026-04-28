@@ -16,13 +16,15 @@
     max-width: 400px;
     text-align: center;
 }
-.header h1 {
-    color: #333;
-    margin-bottom: 0.5rem;
-
+header{
+    background-color: burlywood;
+    color:white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:24px 0;
+    text-align: center;
 }
 .header p{
-    color:#666666;
+    color: brown;
     font-size: medium;
     margin-bottom: 1.5rem;
 }
@@ -53,7 +55,7 @@ label{
     transition: background 0.3s ease;
 }
 button:hoover{
-    background-color: red;
+    background-color: red; 
 }
 #result-section{
     margin-top: 20px;
