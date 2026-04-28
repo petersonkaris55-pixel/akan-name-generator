@@ -1,4 +1,4 @@
-body{
+.body{
     font-family: 'Segeo UI', tahoma, Geneva,verdana, sans-serif;
     background: color #f0f2f5;
     display:flex;
@@ -7,7 +7,7 @@ body{
 
     margin: 0;
 }
-main{
+.main{
     background-color: white;
     padding: ;
     border: 10px;
@@ -16,17 +16,17 @@ main{
     max-width: 400px;
     text-align: center;
 }
-header h1 {
+.header h1 {
     color: #333;
     margin-bottom: 0.5rem;
 
 }
-header p{
+.header p{
     color:#666;
     font-size: medium;
     margin-bottom: 1.5rem;
 }
-form{
+.form{
     display: flex;
     gap: 15px;
 }
@@ -35,14 +35,14 @@ label{
     font-weight: bold;
     color: #333;
 }
-input, select{
+.input, select{
     padding: 10px;
     border: 1px solid;
     border-radius: 5px;
     font-size: 1rem;
 
 }
-button{
+.button{
     padding: 12px;
     background-color: #28a745;
     color: white;
