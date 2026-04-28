@@ -52,4 +52,6 @@ button{
     cursor: pointer;
     transition: background 0.3s ease;
 }
-button:hoover
+button:hoover{
+    background-color: #218838;
+}
