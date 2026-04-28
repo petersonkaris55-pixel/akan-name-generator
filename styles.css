@@ -1,6 +1,6 @@
 .body{
     font-family: 'Segeo UI', tahoma, Geneva,verdana, sans-serif;
-    background: color #f0f2f5;
+    background: color burlywood;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -8,7 +8,7 @@
     margin: 0;
 }
 .main{
-    background-color: white;
+    background-color: burlywood;
     padding: 2rem;
     border: 10px;
     box-shadow: 0 4px 6px rbga(0, 0, 0, 0.1);
@@ -25,11 +25,7 @@ header{
 }
 
 
-.header p{
-    color: brown;
-    font-size: medium;
-    margin-bottom: 1.5rem;
-}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -47,9 +43,8 @@ label{
     font-size: 1rem;
 
 }
-button:hoover{
-    background-color: gold; 
-}
+
+
 #result-section{
     margin-top: 20px;
     padding-top: 20px;
@@ -82,7 +77,6 @@ form input,form textarea,form button{
 form input:focus, form text area:focus{
     border-color: green;
     outline: none;
-    gap: 5px;
 }
 form button{
     background-color: green;
@@ -98,14 +92,33 @@ form button{
 form button:hover{
     background-color: green;
 }
-form button:active{
-    background-color: green;
 
-}
 #box1{
     height: 350px;
     width: 600px;
     margin: auto;
     background-color: burlywood;
+
+}
+.result-card{
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px;
+
+}
+.result-card h3{
+    margin-top: 0;
+    color: aqua;
+
+
+}
+#display-name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: blue;
+    margin: 10px 0 0 0 ;
 
 }
