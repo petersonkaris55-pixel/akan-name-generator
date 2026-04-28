@@ -8,24 +8,31 @@
 </head>
 <body>
     <header>
+              
         <h1>Akan Name Generator</h1>
 
     </header>
+
             <h2>Welcome to Akan Name generator</h2>
             <p>An Akan name generator is a digital tool that determines a person's traditional Ghanian day name based on their date of birth,gender,and sometimes birth order.</p>
         <h2>Enter your date of birth and select your gender to find out your traditional Akan name.</h2>
     <main>
-        <form id="akan-form">
+        <!-- form section -->
+         <form id="akan-form">
+            <div class="form">
             <label for="birthdate">Date of Birth</label>
             <input type="date" id="birthdate" name="birthdate"required>
+         </div>
+         <div class="form">
         <label for="gender">Gender:</label>
         <select id="gender" name="gender"required>
             <option value="" disabled selected>select your gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
+        </div>
         <button type="submit">Submit</button>
-        </form>
+        </form>             
         <section id="results-sections">
             <P id="display-name"></P>
         </section>

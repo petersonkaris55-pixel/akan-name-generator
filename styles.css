@@ -17,12 +17,14 @@
     text-align: center;
 }
 header{
-    background-color: burlywood;
+    background-color: red;
     color:white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding:24px 0;
     text-align: center;
 }
+
+
 .header p{
     color: brown;
     font-size: medium;
@@ -30,7 +32,8 @@ header{
 }
 .form{
     display: flex;
-    gap: 15px;
+    flex-direction: column;
+    gap: 5px;
 }
 label{
     text-align: left;
@@ -43,16 +46,6 @@ label{
     border-radius: 5px;
     font-size: 1rem;
 
-}
-.button{
-    padding: 12px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: medium;
-    cursor: pointer;
-    transition: background 0.3s ease;
 }
 button:hoover{
     background-color: red; 
@@ -67,4 +60,41 @@ button:hoover{
     font-size: medium;
     font-size: bold;
     color: brown;
+}
+form{
+    max-width: 650px;
+    margin: 24px auto;
+}
+form label{
+    margin-bottom: 8px;
+    font-weight: 600;
+    display: block;
+}
+form input,form textarea,form button{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 8px;
+    
+}
+form input:focus, form text area:focus{
+    border-color: green;
+    outline: none;
+}
+form button{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: green;
+}
+form button:active{
+    background-color: green;
 }
